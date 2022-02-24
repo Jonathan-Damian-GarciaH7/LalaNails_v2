@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+header{
+
+    heught: 300px;
+    padding: 1 rem 0;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: stretch; /* mueve lo qe este dentro de las cajas o div*/
+}
+
+header div,
+article div{
+    background-color: bisque;
+    border: 1px solid black;
+    width: 90;
+    height: 90px;
+    display: flex;
+}
+
+.contenedor__principal{   
+    display: flex;
+    height: 300px;
+}
+aside{
+    width: 30%;
+    background-color: blueviolet;
+}
+article{
+    background-color: brown;
+    width: 70%;
+    display: flex;
+    justify-content: center; /*centraa img*/
+}
+
+footer{
+    background-color: cornflowerblue;
+    height: 130px;
+}
