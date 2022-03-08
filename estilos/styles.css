@@ -267,8 +267,22 @@ h4{                                        /*nuevo*/
     text-align: center;
     font-size: 50px;
     padding: 50px;
+    animation-duration: 2s;
+    animation-name: texto;
     
 }
+
+@keyframes texto{
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 .titulo__acrilicas{
     /* font-family: 'Play', sans-serif; */
@@ -277,6 +291,8 @@ h4{                                        /*nuevo*/
     padding: 1em; 
     background-color: #798D82;
     margin-bottom: 60px;
+    animation-duration: 2s;
+    animation-name: texto;
 }
 
 .grid__caja__acrilicas{
@@ -297,6 +313,8 @@ h4{                                        /*nuevo*/
     padding: 1em; 
     background-color: #798D82;
     margin-bottom: 60px;
+    animation-duration: 2s;
+    animation-name: texto;
 }
 
 .grid__caja__kapping{
@@ -307,14 +325,41 @@ h4{                                        /*nuevo*/
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 0;
-}   
+}
+
+.imagen{
+    height: auto;
+    width: auto;
+
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: transform 0.3s linear;
+    -moz-transition: transform 0.3s linear;
+    -ms-transition: transform 0.3s linear;
+    -o-transition: transform 0.3s linear;
+    transition: transform 0.3s linear;
+
+}
+
+.imagen:hover {
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 
     
 .imagen img{
     width: 100%;
     height: 100%;
     object-fit: cover; 
-    border-radius: 20px;
+    border-radius: 40px;
+    padding: 20px;
 }
 
 .footer__diseños{
@@ -376,7 +421,13 @@ h4{                                        /*nuevo*/
         /* font-family: 'Play', sans-serif; */
         text-align: center;
         font-size: 20px;
-        padding: 30px;      
+        padding: 30px;     
+        -ms-transform: translateX(0%) translateZ(0);
+        -webkit-transform: translateX(0%) translateZ(0);
+        transform: translateX(0%) translateZ(0);
+        -ms-transition: transform 0.7s cubic-bezier(0.85,0,0.12,1);
+        -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.85,0,0.12,1);
+        transition: transform 0.7s cubic-bezier(0.85,0,0.12,1);
     }
         
     .titulo__acrilicas{
@@ -420,7 +471,7 @@ h4{                                        /*nuevo*/
         width: 100%;
         height: 100%;
         object-fit: cover; 
-        border-radius: 20px;
+        border-radius: 40px;
     }
 
     .caja__footer__diseños > a{
