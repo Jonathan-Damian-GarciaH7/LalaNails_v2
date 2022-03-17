@@ -51,49 +51,19 @@ header {
   height: auto;
   width: auto; }
 
-.imagenes__index {
-  margin: auto;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  justify-items: auto;
-  align-items: auto;
-  gap: 1em;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 0; }
-
 .titulo__index {
   text-align: center;
   font-size: 30px;
-  padding: 100px; }
+  padding: 100px;
+  animation-duration: 2s;
+  animation-name: texto; }
 
 .contenedor {
   text-align: center;
   font-size: 25px;
   /* padding: 0px;*/
   margin: auto;
-  display: table;
-  color: white;
-  background-color: #000; }
-
-.anima {
-  position: relative;
-  float: left;
-  text-align: center; }
-
-.anima span {
-  position: absolute;
-  right: 0;
-  width: 0;
-  background: white;
-  border-left: 1px solid #000;
-  animation: maquina 3s infinite alternate steps(40); }
-
-@keyframes maquina {
-  from {
-    width: 100%; }
-  to {
-    width: 0; } }
+  display: table; }
 
 .texto__medio {
   background-color: black;
@@ -102,18 +72,7 @@ header {
   margin-bottom: 4em;
   padding: 4em;
   text-align: center;
-  justify-items: center;
-  font-size: 30px; }
-
-.texto__index {
-  /*nuevo*/
-  color: white;
-  margin-left: 10%;
-  margin-right: 10%; }
-
-h4 {
-  /*nuevo*/
-  color: white; }
+  justify-items: center; }
 
 .marcas {
   display: block;
@@ -140,12 +99,33 @@ h4 {
   text-decoration: none; }
 
 .caja__footer > li a {
-  color: white;
   font-weight: 300px;
-  font-size: 25px;
   text-decoration: none;
   margin-right: 10px;
   font-family: 'Play', sans-serif; }
+
+.redes__instragram {
+  font-size: 25px;
+  color: blue; }
+
+.redes__facebook {
+  font-size: 25px;
+  color: yellow; }
+
+.redes__whatsapp {
+  font-size: 25px;
+  color: violet; }
+
+h4, .texto__medio {
+  color: white; }
+
+.texto__medio {
+  font-size: 30px; }
+
+.texto__index {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white; }
 
 @media screen and (max-width: 576px) {
   /*RESOLUCION 576x768*/

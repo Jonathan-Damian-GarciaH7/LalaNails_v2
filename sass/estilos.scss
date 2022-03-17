@@ -24,23 +24,25 @@
     width: auto;
 }
 
-.imagenes__index{
-    margin: auto ;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-items: auto;
-    align-items: auto;
-    gap: 1em;
-    margin-left: $size;
-    margin-right: $size;
-    margin-bottom:0;     
-}
+// .imagenes__index{
+//     margin: auto ;
+//     display: grid;
+//     grid-template-columns: 33% 33% 33%;
+//     justify-items: auto;
+//     align-items: auto;
+//     gap: 1em;
+//     // margin-left: $size;
+//     // margin-right: $size;
+//     margin-bottom:0;     
+// }
 
 .titulo__index{
    
    text-align: center;
     font-size: 30px;
     padding: $size;
+    animation-duration: 2s;
+    animation-name: texto;
 }
 
 .contenedor{
@@ -49,33 +51,33 @@
    /* padding: 0px;*/
     margin:auto;
    display:table;
-   color: $color;
-   background-color: #000;
+//    color: black;
+//    background-color: #000;
 }
 
-.anima{
-    position: relative;
-    float: left;
-    text-align: center;
-}
-.anima span{
-    position: absolute;
-    right: 0;
-    width: 0;
-    background: $color;
-   border-left: 1px solid #000 ;
+// .anima{
+//     position: relative;
+//     float: left;
+//     text-align: center;
+// }
+// .anima span{
+//     position: absolute;
+//     right: 0;
+//     width: 0;
+//     background: $color;
+//    border-left: 1px solid #000 ;
 
-   animation: maquina 3s infinite alternate steps(40);
-}
+//    animation: maquina 3s infinite alternate steps(40);
+// }
 
-@keyframes maquina{
-    from {
-        width: 100%;
-    }
-    to { 
-        width: 0;
-    }
-}
+// @keyframes maquina{
+//     from {
+//         width: 100%;
+//     }
+//     to { 
+//         width: 0;
+//     }
+// }
 
 
 
@@ -88,18 +90,20 @@
     padding:4em;
     text-align: center;
     justify-items: center;
-    font-size: 30px;
+    // font-size: 30px;
+
 }
 
-.texto__index{                             /*nuevo*/
-    color: $color;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+// .texto__index{                             /*nuevo*/
+//     color: $color;
+//     margin-left: 10%;
+//     margin-right: 10%;
+  
+// }
 
-h4{                                        /*nuevo*/
-    color: $color;
-}
+//  h4{                                        /*nuevo*/
+//      color: $color;
+//  }
 
 .marcas {
     display:block;
@@ -129,13 +133,54 @@ h4{                                        /*nuevo*/
 }
 
 .caja__footer > li a{
-    color: $color;
+    // color: $color;
     font-weight: 300px;
-    font-size: 25px;
+    // font-size: 25px;
     text-decoration: none;
     margin-right: 10px;
     font-family: 'Play', sans-serif;
 }
+
+// MAPAS
+
+$redes:(
+    instragram:blue,
+    facebook: yellow,
+    whatsapp: violet,
+);
+
+@each $red, $col in $redes {
+    .redes__#{$red}{
+        
+        font-size: 25px;
+        color: $col;
+    }
+    
+}
+
+// EXTEND
+
+h4{
+    color: $color;
+}
+.texto__medio{
+    @extend h4;
+    font-size: 30px;
+    
+}
+
+
+// MIXIND
+@mixin margin ($margin-left, $margin-right) {
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+}
+.texto__index{
+    @include margin(10% , 10%);
+    color: $color;
+}
+
+
 
 @media screen and (max-width:576px){          /*RESOLUCION 576x768*/
     header{
