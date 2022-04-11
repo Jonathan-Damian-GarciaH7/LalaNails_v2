@@ -444,13 +444,11 @@ h4, .texto__medio {
   font-size: 30px;
   padding: 70px;
   background-color: #e6e6e6;
-  margin: 2%;
+  margin: 15%;
   position: relative;
   bottom: 220px;
   border-radius: 30px;
-  color: #535252;
-  font-family: 'Play', sans-serif;
-  font-size: 35px; }
+  color: #535252; }
 
 .titulo2__contacto {
   text-align: center;
@@ -458,9 +456,7 @@ h4, .texto__medio {
   padding: 50px;
   position: relative;
   bottom: 620px;
-  color: #535252;
-  font-family: 'Play', sans-serif;
-  font-size: 35px; }
+  color: #535252; }
 
 .class__nombre {
   height: 35px;
@@ -468,11 +464,10 @@ h4, .texto__medio {
   position: relative;
   bottom: 650px;
   left: 287px;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #2b2a2a;
   font-size: 20px;
-  background-color: #e6e6e6;
-  font-family: 'Play', sans-serif; }
+  background-color: #e6e6e6; }
 
 .class__email {
   height: 35px;
@@ -480,11 +475,10 @@ h4, .texto__medio {
   position: relative;
   bottom: 550px;
   right: 67px;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #2b2a2a;
   font-size: 20px;
-  background-color: #e6e6e6;
-  font-family: 'Play', sans-serif; }
+  background-color: #e6e6e6; }
 
 .class__telefono {
   height: 35px;
@@ -492,11 +486,10 @@ h4, .texto__medio {
   position: relative;
   bottom: 450px;
   right: 420px;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #2b2a2a;
   font-size: 20px;
-  background-color: #e6e6e6;
-  font-family: 'Play', sans-serif; }
+  background-color: #e6e6e6; }
 
 .texto__mensaje {
   height: 135px;
@@ -504,16 +497,15 @@ h4, .texto__medio {
   position: relative;
   bottom: 250px;
   right: 775px;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #2b2a2a;
   font-size: 20px;
-  background-color: #e6e6e6;
-  font-family: 'Play', sans-serif; }
+  background-color: #e6e6e6; }
 
 .boton__enviar {
   width: 120px;
   height: 35px;
-  border-radius: 10px;
+  border-radius: 20px;
   position: relative;
   bottom: 189px;
   right: 1028px; }
@@ -521,9 +513,7 @@ h4, .texto__medio {
 .titulo__mapa {
   margin-left: 1000px;
   position: relative;
-  bottom: 690px;
-  font-family: 'Play', sans-serif;
-  font-size: 25px; }
+  bottom: 690px; }
 
 .img__mapa {
   padding: 1px;
