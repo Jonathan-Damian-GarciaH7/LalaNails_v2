@@ -1,3 +1,0 @@
-agregue keywords y descripciones a todos los html
-ordene los tamaños del encabezado
-Deje los titulos como los tenia escritos

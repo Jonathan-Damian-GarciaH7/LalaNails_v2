@@ -7,6 +7,11 @@
     text-decoration: none;
     list-style: none;
     font-size: 10px;
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
 
     .caja__footer {
         display: flex;
@@ -16,6 +21,7 @@
         margin-bottom: 0;
         text-align: center;
         text-decoration: none;
+        
 
         li {
             a {
@@ -30,3 +36,32 @@
     }
 
 }
+
+/*.footer__diseños {
+    background-color: #000000;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center; }*/
+
+.copy{
+    color: white;
+    font-size:12px;
+}
+/*
+.footer__turnos{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+}*/
