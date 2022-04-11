@@ -100,12 +100,10 @@ header {
   height: auto;
   width: auto; }
 
-html,
 body {
   background-color: #ffffff;
   position: relative;
-  padding-bottom: 3em;
-  overflow-x: hidden; }
+  padding-bottom: 3em; }
 
 .titulo__index {
   margin-top: 80px;
@@ -231,10 +229,8 @@ h4, .texto__medio {
     font-family: 'Play', sans-serif; } }
 
 /*DISEÑOS*/
-html,
 .body__diseños {
-  background-color: white;
-  overflow-x: hidden; }
+  background-color: white; }
 
 .titulo__diseños {
   font-family: 'Play', sans-serif;
@@ -417,13 +413,11 @@ html,
     margin-right: 10px; } }
 
 /*TURNOS*/
-html,
 .body__turnos {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  overflow-x: hidden; }
+  min-height: 100vh; }
 
 .titulo__turnos {
   text-align: center;
@@ -440,19 +434,17 @@ html,
   padding: 50px; }
 
 /*CONTACTO*/
-html,
 .body__contacto {
   background-color: white;
   min-height: 100%;
-  padding: 0;
-  overflow-x: hidden; }
+  padding: 0; }
 
 .titulo__contacto {
   text-align: center;
   font-size: 30px;
   padding: 70px;
   background-color: #e6e6e6;
-  margin: 15%;
+  margin: 2%;
   position: relative;
   bottom: 220px;
   border-radius: 30px;
@@ -710,14 +702,11 @@ html,
     margin: 0.5rem; } }
 
 /*SOBRE MI*/
-html,
 .body__sobremi {
   background-color: white;
-  min-height: 100%;
-  overflow-x: hidden; }
+  min-height: 100%; }
 
 .caja1__sobremi {
-  /*OJO VER BIEN ESTO*/
   background-color: white;
   height: auto;
   width: 100%;
@@ -751,19 +740,25 @@ html,
   margin-left: 72%;
   font-size: 50px;
   font-family: 'Play', sans-serif;
-  top: 20px; }
+  top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  right: 200px; }
 
 .texto__caja3 {
   position: relative;
-  top: 10px;
-  margin-left: 58%;
-  font-size: 25px;
-  text-align: center;
-  font-family: 'Play', sans-serif; }
+  top: 50px;
+  margin-left: 62%;
+  left: 80px;
+  font-size: 20px;
+  font-family: 'Play', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  padding: 60px; }
 
 .imagen__1 {
   position: relative;
-  bottom: 150px;
+  bottom: 140px;
   border-radius: 10px;
   width: 220px;
   height: 180px;
@@ -838,7 +833,7 @@ html,
     width: 220px;
     height: 180px; }
   .footer__diseñoss {
-    background-color: #798D82;
+    background-color: #000000;
     padding: 10px;
     margin-top: 0;
     margin-bottom: 0;

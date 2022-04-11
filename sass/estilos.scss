@@ -17,12 +17,12 @@
     height: auto;
     width: auto;
 }
-html,
+
 body{
     background-color: #ffffff;
     position: relative;
     padding-bottom: 3em;
-    overflow-x: hidden;
+    
 }
 
 
@@ -200,10 +200,10 @@ h4{
 
 
 /*DISEÑOS*/
-html,
+
 .body__diseños{
     background-color: $color;
-    overflow-x: hidden;
+    
 }
 
 .titulo__diseños{
@@ -426,13 +426,13 @@ html,
 
 /*TURNOS*/
 
-html,
+
 .body__turnos{
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow-x: hidden;
+  
 }
    
 .titulo__turnos{
@@ -456,13 +456,13 @@ html,
 
 /*CONTACTO*/
 
-html,
+
 .body__contacto
 {
   background-color: white;
    min-height: 100%;
    padding: 0;
-   overflow-x: hidden;
+ 
 }
 
 .titulo__contacto{
@@ -470,7 +470,7 @@ html,
     font-size: 30px;
     padding: 70px;
     background-color: rgb(230, 230, 230);
-    margin: 15%;
+    margin: 2%;
     position: relative;
     bottom: 220px;
     border-radius: 30px;
@@ -803,14 +803,14 @@ html,
 
 /*SOBRE MI*/
 
-html,
+
 .body__sobremi{
     background-color: white;
     min-height: 100%; 
-    overflow-x: hidden;
+   
 }
 
-.caja1__sobremi{              /*OJO VER BIEN ESTO*/
+.caja1__sobremi{            
     background-color: white;
    height: auto;
     width: 100%;
@@ -850,22 +850,29 @@ html,
     font-size: 50px;
     font-family: 'Play', sans-serif;
     top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    right:200px;
    
 }
 
 .texto__caja3{
+   
     position: relative;
-    top: 10px;
-    margin-left: 58%;
-    font-size: 25px;
-    text-align: center;
+    top:50px;
+    margin-left: 62%;
+    left:80px;
+    font-size: 20px;
     font-family: 'Play', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px;
    
 }
 
 .imagen__1{
     position: relative;
-    bottom: 150px;
+    bottom: 140px;
     border-radius: 10px;
     width: 220px;
     height: 180px;
@@ -964,7 +971,7 @@ html,
         }
       
     .footer__diseñoss {
-        background-color: #798D82;
+        background-color: #000000;
         padding: 10px;
         margin-top: 0;
         margin-bottom: 0;
